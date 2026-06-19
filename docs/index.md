@@ -3,23 +3,6 @@ layout: default
 title: Markdown Test
 ---
 
-<style>
-body {
-  background: lightcyan !important;
-  max-width: 800px;
-  margin: auto;
-}
-h1 {
-  color: maroon !important;
-  text-align: center;
-}
-p {
-  color: gray !important;
-  border: 1px solid gray;
-  padding: 10px;
-}
-</style>
-
 # h1 Heading
 ## h2 Heading
 ### h3 Heading
@@ -35,7 +18,7 @@ __This is bold text__
 
 *This is italic text*
 
-_This is italic text*
+_This is italic text_
 
 ~~Strikethrough~~
 
@@ -84,5 +67,17 @@ Indented code
 
 Block code "fences"
 
-```text
-Sample text here...
+---
+layout: default
+title: Markdown Test
+---
+
+## Images
+
+![Minion](https://octodex.github.com/images/minion.png)
+
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+## Youtube Video
+
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/STeofHExMrc](https://www.youtube.com/embed/STeofHExMrc)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
