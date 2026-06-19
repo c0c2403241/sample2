@@ -5,16 +5,16 @@ title: Markdown Test
 
 <style>
 body {
-  background: lightcyan;
-  width: 800px;
+  background: lightcyan !important;
+  max-width: 800px;
   margin: auto;
 }
 h1 {
-  color: maroon;
+  color: maroon !important;
   text-align: center;
 }
 p {
-  color: gray;
+  color: gray !important;
   border: 1px solid gray;
   padding: 10px;
 }
@@ -35,7 +35,7 @@ __This is bold text__
 
 *This is italic text*
 
-_This is italic text_
+_This is italic text*
 
 ~~Strikethrough~~
 
@@ -83,3 +83,6 @@ Indented code
     line 3 of code
 
 Block code "fences"
+
+```text
+Sample text here...
